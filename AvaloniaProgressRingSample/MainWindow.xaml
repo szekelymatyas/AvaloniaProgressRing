@@ -16,8 +16,8 @@
 	  <progRing:ProgressRing Width="80"
 							 Height="80"
 							 IsActive="{Binding ElementName=ProgressRingActive, Path=IsChecked}"
-							 HorizontalAlignment="Left"
-							 VerticalAlignment="Top"
+							 HorizontalAlignment="Center"
+							 VerticalAlignment="Center"
 							 Foreground="Green"
 							 Margin="10,24,0,0"/>
     <CheckBox Content="Progress ring is active"
